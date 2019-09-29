@@ -31,7 +31,7 @@ Pour ce faire nous allons utiliser une communication via wifi pour commander not
 
 Il faut donc configurer notre ESP en consequence.
 
-Utilisation de la lib 
+Pour commencer, il nous faut importer la librairie ESP8266WiFi :
 
 #include <ESP8266WiFi.h>
 
@@ -42,7 +42,9 @@ const char* password = "VotreMdp";
 const int ledPin = 2;
 WiFiServer server(1337);
 
-Afin de récupérer les données reçues via le wifi, à chaque tour de boucle (fonction loop) on vérifie si l'on a reçu ou non des données. Si c'est le cas, on vérifie leurs valeurs et on agit en conséquence.
+Dans la fonction setup(), on se connecte à notre wifi et on configure la LED :
+
+
 void setup(void) {
   Serial.begin(115200);
   WiFi.begin(ssid, password);
@@ -53,6 +55,7 @@ void setup(void) {
   // Start TCP server.
   server.begin();
 }
+Afin de récupérer les données reçues via le wifi, à chaque tour de boucle (fonction loop) on vérifie si l'on a reçu ou non des données. Si c'est le cas, on vérifie leurs valeurs et on agit en conséquence.
 
 void loop(void) {
   WiFiClient client = server.available();
