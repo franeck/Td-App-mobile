@@ -8,7 +8,8 @@ Pour commencer, il faut telecharger le logiciel EvoThings sur votre pc et un vie
 
 L'application Evothings va nous permettre de convertir notre code HTML CSS Javascript en Android.
 
-Une fois le logiciel telechargé, rendez vous sur le lien suivant et suivre la partie "First time step-by-step guide" pour initier une connexion entre votre pc et votre smartphone.
+Une fois le logiciel telechargé, rendez vous sur le lien suivant et suivre la partie "First time step-by-step guide" pour 
+initier une connexion entre votre pc et votre smartphone.
 https://evothings.com/doc/tutorials/evothings-studio-getting-started.html
 
 Vous pouvez telecharger le dossier Hell_World et le placer dans C:\Users\VotreNom\EvothingsStudio\Myapps\
@@ -47,7 +48,8 @@ void setup(void) {
   // Start TCP server.
   server.begin();
 }
-Afin de récupérer les données reçues via le wifi, à chaque tour de boucle (fonction loop) on vérifie si l'on a reçu ou non des données. Si c'est le cas, on vérifie leurs valeurs et on agit en conséquence.
+Afin de récupérer les données reçues via le wifi, à chaque tour de boucle (fonction loop) on vérifie si l'on a reçu ou non 
+des données. Si c'est le cas, on vérifie leurs valeurs et on agit en conséquence.
 
 void loop(void) {
   WiFiClient client = server.available();
@@ -76,9 +78,11 @@ void loop(void) {
   }
 }
 
-Vous avez maintenant un code fonctionnel. Afin de le tester, vous pouvez télecharger le dossier ExerciceLed à mettre dans myapps sur le logiciel Evothings.
+Vous avez maintenant un code fonctionnel. Afin de le tester, vous pouvez télecharger le dossier ExerciceLed à mettre dans 
+myapps sur le logiciel Evothings.
 
-Téléversez le code ci-dessous en changeant les data d'accés à votre wifi pour obtenir l'adresse IP de votre ESP, elle vous sera utile pour vous connecter à votre ESP 
+Téléversez le code ci-dessous en changeant les data d'accés à votre wifi pour obtenir l'adresse IP de votre ESP, 
+elle vous sera utile pour vous connecter à votre ESP 
 lors du lancement de l'application mobile.
 
 #include <ESP8266WiFi.h>
