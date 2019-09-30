@@ -4,7 +4,7 @@ Ce TD va vous permettre de prendre en main la gestion d'une App Mobile sur vos o
 
 ## Exercice 1 : Configuration + Hello World
 
-Pour commencer, il faut telecharger le logiciel EvoThings sur votre pc et l'application CGTek Viewer sur votre télephone.
+Pour commencer, il faut telecharger le logiciel EvoThings sur votre pc et un viewer sur votre télephone.
 
 L'application Evothings va nous permettre de convertir notre code HTML CSS Javascript en Android.
 
@@ -79,7 +79,3 @@ void loop(void) {
 Vous avez maintenant un code fonctionnel. Afin de le tester, vous pouvez télecharger le dossier ExerciceLed à mettre dans myapps sur le logiciel Evothings.
 
 Lancez votre application et verifier le bon fonctionnement.
-
-## Exercice 3 : Utilisation du protocole MQTT
-
-1. Refaire le meme exercice en utilisant VisualStudioCode
