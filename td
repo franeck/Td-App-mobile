@@ -2,15 +2,7 @@
 
 Ce TD va vous permettre de prendre en main la gestion d'une App Mobile sur vos objets connectés.
 
-Questions de cours:
-
-1)
-
-2)
-
-3)
-
-## Exercice 2 : Configuration + Hello World
+## Exercice 1 : Configuration + Hello World
 
 Pour commencer, il faut telecharger le logiciel EvoThings sur votre pc et l'application CGTek Viewer sur votre télephone.
 
@@ -23,7 +15,7 @@ Vous pouvez telecharger le dossier Hell_World et le placer dans C:\Users\VotreNo
 
 Lancer maintenant votre votre projet HelloWorld sur le logiciel dans la partie MyApps.
 
-## Exercice 3 :
+## Exercice 2 :
 
 Nous allons maintenant utiliser notre smartphone pour controler une LED à distance.
 
@@ -88,6 +80,6 @@ Vous avez maintenant un code fonctionnel. Afin de le tester, vous pouvez télech
 
 Lancez votre application et verifier le bon fonctionnement.
 
-## Exercice 4 : Utilisation du protocole MQTT
+## Exercice 3 : Utilisation du protocole MQTT
 
 1. Refaire le meme exercice en utilisant VisualStudioCode
