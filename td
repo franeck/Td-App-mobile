@@ -88,6 +88,6 @@ Vous avez maintenant un code fonctionnel. Afin de le tester, vous pouvez télech
 
 Lancez votre application et verifier le bon fonctionnement.
 
-## Exercice 4 (BONUS) :
+## Exercice 4 : Utilisation du protocole MQTT
 
 1. Refaire le meme exercice en utilisant VisualStudioCode
